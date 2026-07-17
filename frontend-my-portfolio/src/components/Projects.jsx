@@ -18,7 +18,7 @@ function Projects() {
       <h2>Dự án nổi bật</h2>
       
       <div className="filter-search">
-        <input 7
+        <input 
           type="text" 
           placeholder="Tìm theo tên hoặc công nghệ..." 
           value={searchTerm}
