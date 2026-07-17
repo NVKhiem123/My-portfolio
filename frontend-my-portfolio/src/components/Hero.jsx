@@ -1,6 +1,6 @@
 import React from 'react';
 
-import avatarImg from '../assets/Toi.jpg';
+import avatarImg from '/Toi.jpg';
 
 function Hero() {
   return (

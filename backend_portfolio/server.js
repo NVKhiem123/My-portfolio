@@ -16,7 +16,7 @@ let projects = [
         desc: 'Trò chơi nhập vai.', 
         tech: 'Unity engine, C#', 
         link: 'https://github.com/NVKhiem123/gia-lap-mien-tay', 
-        image: 'https://placehold.co/600x400' 
+        image: '/Nguoi_Mien_Tay.jpg' 
     },
     { 
         id: 2, 
@@ -24,12 +24,19 @@ let projects = [
         desc: 'Thiết kế cầu cá của riêng bạn', 
         tech: 'Unity engine, C#', 
         link: 'https://github.com/NVKhiem123/thiet-ke-cau-ca', 
-        image: 'https://placehold.co/600x400' 
+        image: 'Cau_Ca.jpg' 
     },
-    // Bạn có thể copy thêm các dự án từ Frontend sang đây
+        { 
+        id: 3, 
+        title: 'My-Portfolio', 
+        desc: 'Trang giới thiệu về tôi', 
+        tech: 'ReactJS, Node.js', 
+        link: 'https://github.com/NVKhiem123/My-portfolio', 
+        image: 'Toi.jpg' 
+    },
+    
 ];
 
-// Nơi viết các API Routing sẽ nằm ở đây...
 // GET /api/projects
 app.get('/api/projects', (req, res) => {
     const { search } = req.query; // Nhận từ khóa tìm kiếm từ query
